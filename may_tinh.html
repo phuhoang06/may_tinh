@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính toán cơ bản</title>
+</head>
+<body>
+<h2>Caculator</h2>
+<form name="caculator">
+    <input type="number" id = 'num1' placeholder="số thứ nhất">
+    <br><br>
+    <input type="number" id = 'num2' placeholder="số thứ hai">
+    <br><br>
+    <select id = 'pheptinh'>
+        <option value="cong" >cộng (+)</option>
+        <option value="tru" >trừ (-)</option>
+        <option value="nhan" >nhân (*)</option>
+        <option value="chia" >chia (/)</option>
+    </select>
+    <br><br></br>
+    <button type="button" onclick="calculate()">Tính toán</button>
+    <br><br>
+    <div    id = 'result'>KQ</div>
+</form>
+<script src ='app.js'></script>
+</body>
+</html>
